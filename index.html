@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KGB L3</title>
+    <!-- CSS's -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="kgb.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="port.css">
+    <link rel="stylesheet" type="text/css" href="miembros.css">
+    <link rel="stylesheet" type="text/css" href="proyectos.css">
+
+
+    <!-- JavaScripts's -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="nav.js"></script>
+    <script type="text/javascript" src="port.js"></script>
+  </head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-inverse sidebar navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span id="m" class="navbar-brand" href="#">Menú</span>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#myCarousel">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+          <li><a href="#portfolio">Colaboraciones<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+          <li><a href="#software">Software<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+          <li><a href="#proyectos">Proyectos<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+          <li><a href="#premios">Premios<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+          <li><a href="#miembros">Miembros<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- fin NAV -->
+ 
+  <div class="main"> <!-- MAIN -->
+
+  <!-- CAROUSEL -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>KGB L3</h1>
+              <p class="negro">KinderGarten and Beyond and LifeLong Learning.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>¿Quiénos somos?</h1>
+              <p class="negro">Somos un grupo de investigación de la URJC compuesto por cinco profesores, dos doctorandos y una docena de alumnos de máster y grado.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/3.gif" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Nuestos objetivos</h1>
+              <p>KGB L3 tiene como objetivo la investigación y promoción del pensamiento computacional.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  <!-- FIN Carousel -->
+
+  <!-- SOFTWARE -->
+  <div id="software" class="row">
+    <div class="col-lg-12">
+        <h2 class="negro titulos">SOFTWARE</h2>
+          <hr>
+            <div class="col-xs-12 col-sm-6 thumb">
+              <a class="thumbnail" href="mod-scrat" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="Some lovely red flowers" data-target="#mod-scrat">
+                  <img class="img-responsive" src="images/scratch.png" alt="Short alt text">
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 thumb"> 
+              <a class="thumbnail" href="mod-gym" data-image-id="" data-toggle="modal" data-title="The car i dream about" data-caption="If you sponsor me, I can drive this car" data-target="#mod-gym">
+                  <img class="img-responsive" src="images/gym.png" alt="A alt text">
+              </a>
+            </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="mod-scrat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="image-gallery-title">Dr. Scratch</h4>
+            </div>
+            <div class="modal-body">
+                <img id="image-gallery-image" class="img-responsive" src="images/scratch.png">
+            </div>
+            <div class="modal-footer">
+                <div class="col-md-8 text-justify" id="image-gallery-caption">
+                    Es una plataforma web permite subir programas de Scratch, un lenguaje de programación visual orientado al aprendizaje de técnicas de programación para niños, para ser evaluados, de manera que el alumno recibirá realimentación sobre la calidad del programa, cómo mejorarlo y una evaluación global de sus capacidades de programación. La plataforma incluye técnicas de ludificación (gamification), de manera que el alumno puede ganar medallas y desarrollar sus habilidades de programación y alcanzar niveles de mayor complejidad y calidad. Dentro del proyecto se realizarán actividades específicamente orientadas al fomento de la programación para chicas, colectivos desfavorecidos y discapacitados.
+                </div>
+
+                <div class="col-md-offset-10 col-md-1">
+                    <button type="button" id="show-next-image" class="btn btn-default"><a href="http://drscratch.programamos.es/">Visitala!</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="modal fade" id="mod-gym" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="image-gallery-title">Dr. Scratch</h4>
+            </div>
+            <div class="modal-body">
+                <img id="image-gallery-image" class="img-responsive" src="images/gym.png">
+            </div>
+            <div class="modal-footer">
+                <div class="col-md-8 text-justify" id="image-gallery-caption">
+                  Es un juego educativo y geolocalizada de código abierto relacionados con M-Learning &amp; Aplicaciones de Turismo. Se basa en la aplicación de red móvil LibreGeoSocial, que incluye una interfaz de realidad aumentada móvil. Puede organizar y gestionar una gymkana móvil utilizando smartphones Android (gymkhanas de nueva generación) y sin gran esfuerzo.
+                </div>
+
+                <div class="col-md-offset-10 col-md-1">
+                    <button type="button" id="show-next-image" class="btn btn-default"><a href="http://gymkhana.libresoft.es">Visitala!</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- fin SOFTWARE -->
+
+  <!-- PROYECTOS -->
+  <div id="proyectos" class="container-fluid">
+    <h2 class="titulos">PROYECTOS</h2>
+    <hr>
+    <div class="row form-group">
+          <div class="col-xs-12 col-md-6">
+              <div class="panel panel-default">
+                  <div class="panel-image">
+                      <img src="images/emadrid.jpg"/>
+                      <label for="toggle-1"></label>
+                  </div>
+                  <input type="checkbox" id="toggle-1" class="panel-image-toggle">
+                  <div class="panel-body">
+                      <h4>e-Madrid</h4>
+                      <p>Red de excelencia de la Comunidad de Madrid sobre Technology Enhanced Learning, compuesta por cinco universidades públicas de la Comunidad de Madrid y la UNED. Dentro del marco de eMadrid, se organiza un seminario mensual donde se presentan iniciativas relacionadas con el e-learning que tienen amplia difusión.</p>
+                  </div>
+                  <div class="panel-footer text-center">
+                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+              <div class="panel panel-default">
+                  <div class="panel-image hide-panel-body">
+                      <img src="images/fecyt.jpg" />
+                      <label for="toggle-2"></label>
+                  </div>
+                  <input type="checkbox" id="toggle-2" class="panel-image-toggle">
+                  <div class="panel-body">
+                      <h4>FECyT</h4>
+                      <p>El objetivo principal de este proyecto es el despliegue y mantenimiento de una plataforma web, llamada Dr. Scratch, que fomente la creatividad, la capacidad tecnológica y de innovación de alumnos de primaria y secundaria. Esta plataforma web permite subir programas de Scratch, un lenguaje de programación visual orientado al aprendizaje de técnicas de programación para niños, para ser evaluados, de manera que el alumno recibirá realimentación sobre la calidad del programa, cómo mejorarlo y una evaluación global de sus capacidades de programación. La plataforma incluye técnicas de ludificación (gamification), de manera que el alumno puede ganar medallas y, si sigue las recomendaciones que se le van dando, desarrollar sus habilidades de programación y alcanzar niveles de mayor complejidad y de alta calidad. La plataforma permite ser usada sin crearse una cuenta, aunque si el alumno/profesor se crea una cuenta, tendrá disponible su historial, así como la posibilidad de interactuar con otros participantes..</p>
+                  </div>
+                  <div class="panel-footer text-center">
+                  </div>
+              </div>
+          </div>
+    </div>
+  </div>
+
+  <!-- fin PROYECTOS -->
+  
+  <!-- PREMIOS -->
+  <div id="premios" class="container-fluid">
+    <div class="row">
+      <h2 class="titulos negro">PREMIOS</h2>
+      <hr>
+      <div id="texto-premios" class="">
+        <h3>Google RISE Award</h3>
+        El grupo de investigación ha sido reconocido por Google con uno de sus premios RISE Award, un galardón que les permitirá continuar con sus labores de investigación y enseñanza de la programación informática a niños y niñas desde los 3 años de edad. Es la primera ocasión en la que un equipo español logra uno de estos galardones, unos premios que desde el año 2010 vienen reconociendo la labor que realizan entidades de todo el mundo para promover la difusión de la informática.
+      </div>
+    </div>
+  </div>
+
+  <!-- fin PREMIOS -->
+
+  <!-- COLAABORACIONES -->
+  <div id="portfolio" class="container">
+    <div class="row">
+      <h2 class="negro titulos" >COLABORACIONES</h2>
+        <h3 class="negro titulos">Colaboramos con varias asociaciones y entidades. En particular con:</h3>
+        <hr>
+          <section id="pinBoot">
+
+            <article class="white-panel"><img src="images/progra.jpeg" alt="">
+              <h4><a href="http://www.programamos.es">Programamos.es</a></h4>
+              <p>Varios miembros del equipo son los promotores y directores de esta asociación, que pretende crear una comunidad de docentes interesados en aprender y enseñar a programar de manera divertida. Constituida en 2013, cuenta a día de hoy con una comunidad reducida, pero muy activa, de profesores que realizan actividades y talleres para dar difusión de este movimiento e involucrar en el mismo a estudiantes, docentes, familias y administraciones educativas.</p>
+            </article>
+
+            <article class="white-panel"> <img src="images/codelab.jpg" alt="">
+              <h4><a href="http://medialab-prado.es/article/coderdojo">Coder-Dojo Medialab Prado</a></h4>
+              <p>Es una iniciativa internacional surgida en 2011 en Irlanda con el objetivo de enseñar a niños y jóvenes a programar. En pocos meses se ha extendido y ahora mismo coderDojo es una red de centros. En la actualidad existen decenas de clubs en más de de 20 países. En CoderDojo se potencia el software libre y se trabaja con herramientas de programación libres. Algunas de las cosas que se suelen aprender son: Scratch, HTML, Javascript, Arduino, Processing, Android.</p>
+            </article>
+
+            <article class="white-panel"> <img src="images/codeweek.png" alt="">
+              <h4><a href="http://codeweek.eu/">Semana Europea de la programación, CodeWeek EU</a></h4>
+              <p>Varios miembros del equipo son los embajadores españoles de esta iniciativa promovida por la Comisión Europea encargándose, entre otras cuestiones, de la gestión y promoción de los diferentes acontecimientos y eventos que se van a celebrar en nuestro país.</p>
+            </article>
+
+
+            <article class="white-panel"> <img src="images/intef.jpg" alt="">
+              <h4><a href="http://www.ite.educacion.es/">INTEF</a></h4>
+              <p>El equipo del proyecto cuenta con vínculos muy estrechos con el Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado, dependiente del Ministerio de Educación, Cultura y Deporte. Así, uno de los miembros del equipo trabaja allí, mientras que cuatro de los miembros del mismo son profesores o tutores en cursos de formación en pensamiento computacional para profesores, incluyendo cursos de verano o cursos de formación on-line.</p>
+            </article>
+
+            <article class="white-panel"> <img src="images/adie.png" alt="">
+              <h4><a href="http://www.adie.es">ADIE</a></h4>
+              <p>El equipo del proyecto forma parte de la Asociación para el Desarrollo de la Informática Educativa, cuyos objetivos son 1. fomentar la Informática Educativa, 2. promover la formación de las personas en las Nuevas Tecnologías Educativas, 3. el intercambio de trabajos, ideas y experiencias y 4. evaluar la calidad pedagógica de los productos existentes.</p>
+            </article>
+
+            <article class="white-panel"> <img src="images/unir.png" alt="">
+              <h4><a href="http://www.unir.net">UNIR</a></h4>
+              <p>Varios miembros del equipo colaboran con la Universidad Internacional de la Rioja, una universidad virtual que oferta el Máster en e-learning y redes sociales, orientado a docentes principalmente de las etapas infantil, primaria y secundaria. Asimismo, han ofrecido varios talleres abiertos al público sobre programación en Scratch.</p>
+            </article>
+
+          </section>
+        <hr>
+    </div>
+  </div>
+  <!-- fin COLABORACIONES -->
+
+  <!-- MIEMBROS -->
+  <div id="miembros" class="container text-center">
+    <h2 class="negro titulos">MIEMBROS</h2>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12" role="tabpanel">
+              <div class="col-xs-4 col-sm-12">
+                  <ul class="nav nav-justified" id="nav-tabs" role="tablist">
+                      <li role="presentation" class="active">
+                          <a href="#grex" aria-controls="dustin" role="tab" data-toggle="tab">
+                              <img class="img-circle" src="images/gregoriorobles.jpg" />
+                          </a>
+                      </li>
+                      <li role="presentation" class="">
+                          <a href="#barahona"role="tab" data-toggle="tab">
+                              <img class="img-circle" src="images/jesusgonzalez.jpg" />
+                          </a>
+                      </li>
+                      <li role="presentation" class="">
+                          <a href="#eva" role="tab" data-toggle="tab">
+                              <img class="img-circle" src="images/evacastro.jpg" />
+                          </a>
+                      </li>
+                      <li role="presentation" class="">
+                          <a href="#centeno" role="tab" data-toggle="tab">
+                              <img class="img-circle" src="images/josecenteno.png" />
+                          </a>
+                      </li>
+                      <li role="presentation" class="">
+                          <a href="#pedro" role="tab" data-toggle="tab">
+                              <img class="img-circle" src="images/pedrodelasheras.jpg" />
+                          </a>
+                      </li>
+                      <li role="presentation" class="">
+                          <a href="#jesus" role="tab" data-toggle="tab">
+                              <img class="img-circle" src="images/jesusmoreno.jpg" />
+                          </a>
+                      </li>
+                      <li role="presentation" class="">
+                          <a href="#nacho" role="tab" data-toggle="tab">
+                              <img class="img-circle" src="images/joseignacio.jpg" />
+                          </a>
+                      </li>
+                      <li role="presentation" class="">
+                          <a href="#evahu" role="tab" data-toggle="tab">
+                              <img class="img-circle" src="images/evahu.jpg" />
+                          </a>
+                      </li>
+                      <li role="presentation" class="">
+                          <a href="#mari" role="tab" data-toggle="tab">
+                              <img class="img-circle" src="images/mariluz.jpg" />
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-xs-8 col-sm-12">
+                  <div class="tab-content" id="tabs-collapse">            
+                      <div role="tabpanel" class="tab-pane fade in active" id="grex">
+                          <div class="tab-inner">                    
+                              <p class="lead">Profesor e investigador de la URJC, director del grupo.</p>
+                              <hr>
+                              <p><strong class="text-uppercase">Gregorio Robles</strong></p>
+                          </div>
+                      </div>
+                      
+                      <div role="tabpanel" class="tab-pane fade" id="barahona">
+                          <div class="tab-inner">
+                              <p class="lead">Profesor e investigador de la URJC.</p>
+                              <hr>
+                              <p><strong class="text-uppercase">Jesus M. Gonzalez Barahona</strong></p>
+                          </div>
+                      </div>
+                      
+                      <div role="tabpanel" class="tab-pane fade" id="eva">
+                          <div class="tab-inner">
+                              <p class="lead">Profesora e investigadora de la URJC.</p>
+                              <hr>
+                              <p><strong class="text-uppercase">Eva Castro</strong></p>
+                          </div> 
+                      </div>
+                      
+                      <div role="tabpanel" class="tab-pane fade" id="centeno">
+                          <div class="tab-inner">
+                              <p class="lead">Profesor e investigador de la URJC.</p>
+                              <hr>
+                              <p><strong class="text-uppercase">Jose Centeno</strong></p>
+                          </div>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="pedro">
+                          <div class="tab-inner">
+                              <p class="lead">Profesor e investigador de la URJC.</p>
+                              <hr>
+                              <p><strong class="text-uppercase">Pedro de las Heras</strong></p>
+                          </div>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="jesus">
+                          <div class="tab-inner">
+                              <p class="lead">Cofundador de programamos.es, profesor de secundaria, doctorando en la URJC.</p>
+                              <hr>
+                              <p><strong class="text-uppercase">Jesus Moreno</strong></p>
+                          </div>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="nacho">
+                          <div class="tab-inner">
+                              <p class="lead">Cofundador de programamos.es, profesor de secundaria, doctorando en la URJC.</p>
+                              <hr>
+                              <p><strong class="text-uppercase">Jose Ignacio Huertas</strong></p>
+                          </div>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="evahu">
+                          <div class="tab-inner">
+                              <p class="lead">Técnico de apoyo.</p>
+                              <hr>
+                              <p><strong class="text-uppercase">Eva Hu Garres</strong></p>
+                          </div>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="mari">
+                          <div class="tab-inner">
+                              <p class="lead">Técnico de apoyo.</p>
+                              <hr>
+                              <p><strong class="text-uppercase">Mari Luz Aguado</strong></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        
+          </div>
+    </div>
+  </div>
+  <!--fin MIEMBROS  -->
+
+    </div>   <!-- PARALLAX -->
+  </div> <!-- fin MAIN -->
+</body>
+</html>
